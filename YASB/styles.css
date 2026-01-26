@@ -9,6 +9,7 @@
     --base1: var(--background);
     --base2: var(--background);
     --base3: var(--background);
+    --border: 2px solid #2780e6;
 }
 
 * {
@@ -29,6 +30,7 @@
     padding: 0px 8px;
     margin: 0 4px;
     border-radius: 8px;
+    border: var(--border);
 }
 
 .widget .icon {
