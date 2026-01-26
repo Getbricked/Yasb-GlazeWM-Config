@@ -20,16 +20,16 @@ bars:
       windows_app_bar: true
     dimensions:
       width: "100%"
-      height: 28
+      height: 25
     padding:
       top: 4
       left: 4
       bottom: 0
       right: 4
     widgets:
-      left: ["glazewm_workspaces", "media", "cava", "taskbar"]
+      left: ["glazewm_workspaces", "media", "taskbar"]
       center: ["clock"]
-      right: ["active_window"]
+      right: ["active_window", "cava"]
 widgets:
   active_window:
     type: "yasb.active_window.ActiveWindowWidget"
